@@ -1,5 +1,5 @@
 <script setup>
-  const getImage = (img) => `src/assets/images/${img}`;
+const getImage= (img)=> `/images/${img}`
 const products = [
   { id: 1, name: 'Laptop Pro', price: '$1200', desc: 'High performance laptop', img: 'headphone.png' },
   { id: 2, name: 'Smart Phone', price: '$800', desc: 'Latest generation phone', img: 'laptop.png' },
